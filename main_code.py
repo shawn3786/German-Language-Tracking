@@ -29,7 +29,7 @@ elif st.session_state.page == "menu":
             st.session_state.page = "grammer"
             st.session_state.order_index = 0
             st.rerun()
-    with col2:
+    with col3:
         if st.button("👩🏼‍💼Talk with Aqiiii", key = "talk"):
            st.session_state.page = "talk"
            st.session_state.order_index = 0
