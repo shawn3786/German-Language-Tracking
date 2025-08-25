@@ -25,7 +25,7 @@ elif st.session_state.page == "menu":
             st.session_state_index = 0
             st.rerun()
     with col2:
-        if st.button("📝📋 Simple, Easy and Cozy Grammer", key="grammer"):
+        if st.button("📋 Simple, Easy and Cozy Grammer", key="grammer"):
             st.session_state.page = "grammer"
             st.session_state.order_index = 0
             st.rerun()
