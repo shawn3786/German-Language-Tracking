@@ -18,7 +18,9 @@ if st.session_state.page == "welcome":
 elif st.session_state.page == "menu":
     st.title("📋 What would you like to do?")
     
-    col1, col2, col3 = st.columns(3)
+    col1 = st.columns(1)
+    col2 = st.columns(1)
+    col3 = st.columns(1)
     with col1:
         if st.button("📚 Big Vocabulary", key="start_vocabulary"):
             st.session_state.page = "Vocabulary"
